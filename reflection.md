@@ -16,7 +16,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
   - The total number of attempts displayed on the left hand side did not match the number of attempts that were shown in the middle of the   screen. The left side said 8 attempts while the middle said 7 attempts.
-  - The 'higher' and 'lower' hits were always wrong.
+  - The 'higher' and 'lower' hints were always wrong.
 
 ---
 
