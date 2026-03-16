@@ -46,14 +46,19 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 4. What did you learn about Streamlit and state?
 
 - In your own words, explain why the secret number kept changing in the original app.
+ - It changed whenever a new game was started. Didn't notice any weird behaviour otherwise.
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
+  - Streamlit runs the app, then you must refresh the page in order to reset the app.
 - What change did you make that finally gave the game a stable secret number?
-
+  - The new game button was fixed.
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
   - This could be a testing habit, a prompting strategy, or a way you used Git.
+   - Giving my expected results and what the bug currently does and how that is not what I need.
 - What is one thing you would do differently next time you work with AI on a coding task?
+  - I would ask it for more explanation on things I do not fully understand so that I don't have to go back to it later.
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+  - The more context the AI is given, the better results it will produce.
