@@ -69,6 +69,7 @@ with col2:
 with col3:
     show_hint = st.checkbox("Show hint", value=True)
 
+#Fix: Fixed the "New Game" button to reset the game to its intended New Game state.
 if new_game:
     st.session_state.secret = random.randint(low, high)
     st.session_state.attempts = 1

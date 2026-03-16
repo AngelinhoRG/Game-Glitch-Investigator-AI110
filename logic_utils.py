@@ -1,4 +1,7 @@
+#FIX: Refactored logic in to logic_utils.py using Claude Code in Agent mode.
+
 def get_range_for_difficulty(difficulty: str):
+    #FIX: Fixed the issue of the different modes not being the intended level of difficulty.
     """Return (low, high) inclusive range for a given difficulty."""
     if difficulty == "Easy":
         return 1, 20
@@ -41,6 +44,7 @@ def check_guess(guess, secret):
     if guess == secret:
         return "Win", "🎉 Correct!"
 
+    #Fix: Fixed issue with the higher and lower hints being shown opposite of what was intended.
     try:
         if guess > secret:
             return "Too High", "📉 Go LOWER!"

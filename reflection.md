@@ -23,17 +23,23 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 2. How did you use AI as a teammate?
 
 - Which AI tools did you use on this project (for example: ChatGPT, Gemini, Copilot)?
+  - I used Claude Code.
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
+  - The AI suggested swapping the hints for higher/lower so that they showed correctly and it fixed the bug successfully.
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
+  - When creating the tests for my bug fix, running pytest did not work. The AI suggested creating the conftest.py file. It explained to me that, "Adding an empty conftest.py at the root tells pytest to treat the root as the base directory and adds it to the path automatically."
 
 ---
 
 ## 3. Debugging and testing your fixes
 
 - How did you decide whether a bug was really fixed?
+  - I tested the game myself by trying the game out and seeing if the new code met my expectations.
 - Describe at least one test you ran (manual or using pytest)  
   and what it showed you about your code.
+  - A manual test I ran was testing to see if the "New Game" button reset the attempts (to start at 1), score, status, and history. 
 - Did AI help you design or understand any tests? How?
+  - Yes, it helped me design tests to assert that the different difficulty level ranges were accurately set. I asked the AI to write a test to target the function of accurately changing the ranges based on the level of difficulty selected by the player. Easy should be 1-20, Normal 1-100, Hard 1-200.
 
 ---
 
